@@ -1,0 +1,27 @@
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 602px;
+    height: 402px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.controller{
+    margin-top: 30px;
+}
+
+input[type="range" i] {
+    appearance: auto;
+    cursor: default;
+    color: -internal-light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+    padding: initial;
+    border: initial;
+    margin: 2px;
+    width: 100%;
+}
